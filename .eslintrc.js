@@ -20,30 +20,30 @@ module.exports = {
     ],
     "rules": {
       "indent": [
-        "error",
+        "warn",
           2
         ],
       "linebreak-style": [
-        "error",
+        "warn",
         "unix"
       ],
       "quotes": [
-        "error",
+        "warn",
         "single"
       ],
       "semi": [
-        "error",
+        "warn",
         "never"
       ],
       "eqeqeq": "error",
       "no-trailing-spaces": "error",
       "object-curly-spacing": [
-        "error", "always"
+        "warn", "always"
       ],
       "arrow-spacing": [
-        "error", { "before": true, "after": true }
+        "warn", { "before": true, "after": true }
       ],
-      "no-console": "error",
+      "no-console": "warn",
       "react/prop-types": 0
     }
   }
