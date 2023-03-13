@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: data
-        run: |
-          echo data
+        run: data
       - name: ls
         run: ls
                
