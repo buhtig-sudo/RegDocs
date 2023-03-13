@@ -10,6 +10,9 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: Say hello
+      - name: data
         run: |
-          echo "Hello World!"
+          echo data
+      - name: ls
+        run ls
+               
